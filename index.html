@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
+</head>
+
+<body>
+    <div id="app">
+        <header id="mastermind"></header>
+        
+        <div id="titleScreen"></div>
+        <div id="gameOver"></div>
+
+        <div id="board">
+            <div id="history"></div>
+            <div id="game" class="mastermind">
+                <div class="ball" color="-1"></div>
+                <div class="ball" color="-1"></div>
+                <div class="ball" color="-1"></div>
+                <div class="ball" color="-1"></div>
+                <div class="ball" color="-1"></div>
+            </div>
+        </div>
+
+        <div class="buttonList">
+            <button id="classicMode"></button>
+            <button id="easyMode"></button>
+            <button id="check"></button>
+            <button id="reload"></button>
+        </div>
+
+        <div id="footer"></div>
+    </div>
+
+    <!-- <script src="path/to/LittleJS"></script> -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
+</body>
+
+</html>
